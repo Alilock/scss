@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  padding: 8px;
+  background-color: #212529;
+}
+
+header .container .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .container .row .logo {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: white;
+}
+
+header .container .row nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+header .container .row nav ul {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .container .row nav ul .whiteli {
+  color: white;
+}
+
+header .container .row nav ul li {
+  list-style: none;
+  padding: 8px;
+  color: #94999e;
+}
+
+header .container .row nav .hamburger {
+  display: none;
+  border: 1px solid transparent;
+  color: rgba(255, 255, 255, 0.55);
+  border-color: rgba(255, 255, 255, 0.1);
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.75rem;
+}
+
+header .container .row nav .hamburger i {
+  font-size: 24px;
+}
+
+.intro {
+  background-color: #212529;
+}
+
+.intro .container {
+  padding: 3rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.intro .container .text-center {
+  width: 50%;
+  margin: 3rem 0;
+}
+
+.intro .container .text-center .title h1 {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.intro .container .text-center .info {
+  color: white;
+  font-weight: 300;
+}
+
+.intro .container .text-center .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.intro .container .text-center .buttons a:first-child {
+  margin-right: 1rem;
+}
+
+.intro .container .text-center .buttons a {
+  font-size: 20px;
+}
+
+.features {
+  padding: 48px;
+}
+
+.features .container .featcard {
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+}
+
+.features .container .featcard .featicon {
+  width: 4rem;
+  height: 4rem;
+  background-color: #1573fb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.features .container .featcard .featicon i {
+  color: white;
+  font-size: 2rem;
+}
+
+.features .container .featcard .featinfo h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.features .container .featcard .featinfo a {
+  text-decoration: none;
+}
+
+.plans {
+  background: #f8f9fa;
+  border-top: #9a9c9f 1px solid;
+  border-bottom: #9a9c9f 1px solid;
+}
+
+.plans .container {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.plans .container .text {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.plans .container .card {
+  padding: 3rem;
+}
+
+.plans .container .card .price {
+  font-size: 55px;
+}
+
+.plans .container .card ul {
+  padding: 0;
+  line-height: 2;
+}
+
+.plans .container .card ul li {
+  gap: 10px;
+  list-style: none;
+}
+
+.plans .container .card ul li .fa-check {
+  font-size: 10px;
+  color: #1573fb;
+}
+
+.plans .container .card ul li .fa-xmark {
+  font-size: 10px;
+  color: #94999e;
+}
+
+.plans .container .card .btn-outline {
+  border: #1573fb 1px solid !important;
+  color: #1573fb;
+}
+
+.comments {
+  padding: 3rem 0;
+}
+
+.comments .container .text {
+  text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+  header .nav-links {
+    display: none !important;
+  }
+  header .hamburger {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+}
+/*# sourceMappingURL=main.css.map */

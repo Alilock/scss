@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+
+    padding: 8px;
+    background-color: #212529;
+
+    .container {
+
+        .row {
+            align-items: center;
+
+            .logo {
+                padding-top: 0.3125rem;
+                padding-bottom: 0.3125rem;
+                margin-right: 1rem;
+                font-size: 1.25rem;
+                text-decoration: none;
+                color: white;
+            }
+
+            nav {
+                display: flex;
+                justify-content: flex-end;
+
+                ul {
+                    margin: 0;
+                    display: flex;
+
+
+                    .whiteli {
+                        color: white;
+                    }
+
+                    li {
+                        list-style: none;
+                        padding: 8px;
+                        color: #94999e;
+                    }
+                }
+
+                .hamburger {
+                    display: none;
+                    border: 1px solid transparent;
+                    color: rgba(255, 255, 255, 0.55);
+                    border-color: rgba(255, 255, 255, 0.1);
+                    border-radius: 0.25rem;
+                    padding: 0.25rem 0.75rem;
+
+                    i {
+                        font-size: 24px;
+                    }
+
+
+                }
+            }
+
+
+        }
+    }
+}
+
+.intro {
+    background-color: #212529;
+
+    .container {
+        padding: 3rem 0;
+        display: flex;
+        justify-content: center;
+
+
+        .text-center {
+            width: 50%;
+            margin: 3rem 0;
+
+
+            .title {
+                h1 {
+                    color: white;
+                    font-weight: bold;
+                    text-align: center;
+                }
+            }
+
+            .info {
+                color: white;
+                font-weight: 300;
+            }
+
+            .buttons {
+                display: flex;
+                justify-content: center;
+            }
+
+            .buttons a:first-child {
+                margin-right: 1rem;
+            }
+
+            .buttons a {
+                font-size: 20px;
+            }
+        }
+
+
+    }
+}
+
+.features {
+    padding: 48px;
+
+    .container {
+        .featcard {
+            margin-top: 3rem !important;
+            margin-bottom: 3rem !important;
+
+            .featicon {
+                width: 4rem;
+                height: 4rem;
+                background-color: #1573fb;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 8px;
+                margin-bottom: 16px;
+
+                i {
+                    color: white;
+                    font-size: 2rem;
+                }
+
+            }
+
+            .featinfo {
+                h2 {
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                }
+
+                a {
+                    text-decoration: none;
+                }
+
+
+            }
+        }
+    }
+}
+
+.plans {
+    background: #f8f9fa;
+    border-top: #9a9c9f 1px solid;
+    border-bottom: #9a9c9f 1px solid;
+
+
+    .container {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+
+
+
+        .text {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .card {
+            padding: 3rem;
+
+            .price {
+                font-size: 55px;
+            }
+
+            ul {
+                padding: 0;
+                line-height: 2;
+
+                li {
+                    gap: 10px;
+
+                    .fa-check {
+                        font-size: 10px;
+                        color: #1573fb;
+                    }
+
+                    .fa-xmark {
+                        font-size: 10px;
+                        color: #94999e;
+                    }
+
+                    list-style: none;
+                }
+
+
+            }
+
+            .btn-outline {
+                border: #1573fb 1px solid !important;
+                color: #1573fb;
+            }
+
+        }
+    }
+}
+
+.comments {
+    padding: 3rem 0;
+
+    .container {
+        .text {
+
+            text-align: center;
+        }
+    }
+
+
+}
+
+
+@media screen and (max-width: 992px) {
+    header {
+
+        .nav-links {
+            display: none !important;
+        }
+
+        .hamburger {
+            display: flex !important;
+        }
+
+    }
+
+
+
+}
